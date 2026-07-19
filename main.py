@@ -1,3 +1,10 @@
+"""
+    Things to do:
+      1. see the activity i.e., hallucination percentage, evaluvation
+      2. providing citations for each response
+    Future improvements:
+      1. make the chunks cache more useful by adding semantic search
+"""
 import ollama
 import requests
 from pinecone import Pinecone, ServerlessSpec
